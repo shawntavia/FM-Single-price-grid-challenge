@@ -90,10 +90,60 @@ textarea {
    /** *********General Syles  *******/
 
    html {
-     font-size: 16px;
+      font-family: 'Karla', sans-serif;
+      font-size: 16px;
      line-height: 1.4;
+     
+   }
+   h1 {
+     color: hsl(179, 62%, 43%);
+   }
+   h2 {
+     color: hsl(71, 73%, 54%);
+   }
+   p {
+     color: hsl(218, 22%, 67%);
+   }
+   .content-wrapper {
+    width: 90%;
+     margin: 30px;
+   }
+   .join {
+     background-color: white;
+   }
+   .sub {
+     background-color: #2bb3b1;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     
+
    }
    
+   .sub h2 {
+     color: hsl(204, 43%, 93%);
+   }
+   .sub p {
+    color: hsl(204, 43%, 93%);
+   }
+   span.price {
+     font-size: 2em;
+     color: white;
+   }
+
+   /**button**/
+   input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 500;
+    font-size: 1.125em;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
 
 /* ==========================================================================
    Helper classes
