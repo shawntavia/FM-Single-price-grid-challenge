@@ -102,25 +102,46 @@ textarea {
      color: hsl(71, 73%, 54%);
    }
    p {
-     color: hsl(218, 22%, 67%);
+     color: hsl(204, 43%, 93%);
    }
    .content-wrapper {
     width: 90%;
      margin: 30px;
    }
+   /*** Join section ***/
    .join {
      background-color: white;
+     display: flex;
+     justify-content: center;
+     flex-flow: row wrap;
+     
+    
    }
+   .join h1 {
+     font-size: 1.3em;
+   }
+   .join h2{
+     font-size: 1.1em;
+   }
+   .join p {
+     line-height: 1.6;
+     color: hsl(218, 22%, 67%)
+   }
+
+   /****Monthly Subscription section***/
    .sub {
      background-color: #2bb3b1;
-     margin-top: 30px;
-     margin-bottom: 30px;
+     display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    
      
 
    }
    
    .sub h2 {
-     color: hsl(204, 43%, 93%);
+     color: white;
+     font-size: 1.25em;
    }
    .sub p {
     color: hsl(204, 43%, 93%);
@@ -129,21 +150,59 @@ textarea {
      font-size: 2em;
      color: white;
    }
+   span.month {
+     color: hsla(203, 44%, 93%, 0.678);
+     
+   }
 
    /**button**/
-   input[type=button] {
-    width: 100%;
-    padding: 20px 0;
-    margin-top: 20px;
+  
+  .button {
     background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
     font-weight: 500;
     font-size: 1.125em;
-    color: white;
-    border: none;
-    text-align: center;
-    text-transform: capitalize;
+    padding: 20px 0;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
   }
-  
+  button:hover {
+    
+    background-color: hsla(71, 73%, 54%, 0.938);
+    font-size: 1.12em;
+}
+  /****Why us section***/
+  .why {
+    background-color: #4abebd;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  .why h2{
+    color: white;
+    font-size: 1.25em;
+  }
+
+  footer p {
+    /**display: flex;
+    justify-content: center; */
+    font-size: .8em;
+    background-color: white;
+    color: hsl(218, 22%, 67%);
+    margin: 0;
+    text-align: center;
+  }
+  footer a {
+    color: hsl(218, 22%, 67%);
+    cursor: pointer;
+    text-decoration: underline;
+  }
 
 /* ==========================================================================
    Helper classes
