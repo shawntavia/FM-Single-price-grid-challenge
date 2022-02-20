@@ -113,7 +113,7 @@ I only have knowledge of flexbox. I would like to see how this would work with g
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/shawntavia)
+- Frontend Mentor - [@shawntavia](https://www.frontendmentor.io/profile/shawntavia)
 - GitHub - [@shawntavia](https://www.github.com/shawntavia)
 
 
